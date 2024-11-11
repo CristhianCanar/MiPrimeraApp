@@ -1,4 +1,4 @@
-package com.cristhian.miprimeraapp.ui
+package com.cristhian.miprimeraapp.view
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -10,9 +10,8 @@ import androidx.core.content.ContextCompat
 import com.cristhian.miprimeraapp.databinding.ActivityGrabadoraBinding
 
 class GrabadoraActivity : AppCompatActivity() {
+
     lateinit var binding:ActivityGrabadoraBinding
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
